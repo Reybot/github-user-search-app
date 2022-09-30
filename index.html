@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./icons/favicon-32x32.png" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>GitHub user search app</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="top">
+        <p class="devfinder">devfinder</p>
+        <div class="theme">
+          <img src="./icons/icon-sun.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="middle">
+        <img class="search-icon" src="./icons/icon-search.svg" alt="" />
+        <input
+          id="userInput"
+          type="text"
+          placeholder="Search GitHub username_"
+        />
+        <button id="btn">Search</button>
+      </div>
+
+      <div class="bottom">
+        <div class="img-container">
+          <img id="profile-img" src="" alt="" />
+        </div>
+        <div class="user-info">
+          <div class="uno">
+            <div class="quatro">
+              <h3 id="name"></h3>
+              <a id="link" href=""></a>
+              <p id="bio">@</p>
+            </div>
+            <div class="cinco">
+              <p id="joined-date"></p>
+            </div>
+          </div>
+          <div class="dos">
+            <div class="ocho">
+              Repos
+              <div id="repos"></div>
+            </div>
+            <div class="ocho">
+              Followers
+              <div id="followers"></div>
+            </div>
+            <div class="ocho">
+              Following
+              <div id="following"></div>
+            </div>
+          </div>
+          <div class="tres">
+            <div class="seis">
+              <div class="wrapper">
+                <img src="./icons/icon-location.svg" alt="" />
+                <p id="location"></p>
+              </div>
+              <div class="wrapper">
+                <img src="./icons/icon-website.svg" alt="" />
+                <p id="website"></p>
+              </div>
+            </div>
+            <div class="siete">
+              <div class="wrapper">
+                <img src="./icons/icon-twitter.svg" alt="" />
+                <p id="twitter"></p>
+              </div>
+              <div class="wrapper">
+                <img src="./icons/icon-company.svg" alt="" />
+                <p id="company"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
