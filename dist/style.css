@@ -19,7 +19,7 @@ body {
   gap: 20px;
 }
 
-.top {
+.logo {
   height: 80px;
   display: flex;
   gap: 560px;
@@ -34,7 +34,7 @@ body {
   color: white;
 }
 
-.middle {
+.middle-section {
   background-color: #1f2a48;
   height: 60px;
   border-radius: 10px;
@@ -76,7 +76,7 @@ input {
   filter: brightness(0.9);
 }
 
-.bottom {
+.bottom-section {
   background-color: #1f2a48;
   height: 400px;
   border-radius: 10px;
@@ -101,47 +101,47 @@ input {
   justify-content: space-around;
 }
 
-.uno {
+.user-info {
   padding: 10px;
   height: 100%;
   display: flex;
 }
 
-.quatro {
+.user-container {
   padding: 10px;
   width: 100%;
 }
-.quatro h3 {
+.user-container h3 {
   color: white;
 }
-.quatro a {
+.user-container a {
   color: blue;
 }
-.quatro p {
+.user-container p {
   color: white;
   opacity: 0.7;
   padding-top: 20px;
 }
 
-.cinco {
+.date-container {
   padding: 10px;
   width: 100%;
 }
-.cinco #joined-date {
+.date-container #joined-date {
   color: white;
 }
 
-.dos {
+.middle-main-container {
   padding: 10px;
   height: 100%;
   display: flex;
   justify-content: space-around;
 }
-.dos div {
+.middle-main-container div {
   color: white;
 }
 
-.ocho div {
+.middle-container div {
   margin-top: 5px;
 }
 
@@ -157,12 +157,12 @@ input {
   color: white;
 }
 
-.tres {
+.bottom-main-container {
   height: 100%;
   display: flex;
 }
 
-.seis {
+.bottom-left-container {
   padding: 10px;
   width: 100%;
   display: flex;
@@ -176,10 +176,11 @@ input {
   gap: 20px;
 }
 .wrapper img {
-  width: 15px;
+  max-width: 12px;
+  max-height: 15px;
 }
 
-.siete {
+.bottom-right-container {
   padding: 10px;
   width: 100%;
   display: flex;
